@@ -120,6 +120,7 @@ sudo -u kali pip3 install -U stegoveritas
 
 BLUE "[*] Installing some lighter forensics tools..."
 sudo -u kali pip3 install -U oletools
+sudo -u kali pip3 install -U pyshark
 sudo apt install -y strace ltrace
 wget https://didierstevens.com/files/software/DidierStevensSuite.zip -O /opt/DidierStevensSuite.zip
 chown kali:kali /opt/DidierStevensSuite.zip
